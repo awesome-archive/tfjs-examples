@@ -947,53 +947,60 @@
     tinycolor2 "^1.1.2"
     utif "^1.1.2"
 
-"@tensorflow/tfjs-converter@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-1.0.3.tgz#eeceeea98827662fa8042c652409e3a45df825a0"
+"@tensorflow/tfjs-converter@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-1.3.2.tgz#9c75b75edbd56c736735f3ea3d3c53d1e1a2751c"
+  integrity sha512-HTGT5sinSzayH/RXwoeebtc5pwTU9E3JzlcLfBa0HZVkkeKadhtzqh3QH+BFuuNsvX691AiIHv4P7SylUu1XQg==
 
-"@tensorflow/tfjs-core@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-1.0.3.tgz#344f3fb1ed43c43b0e19e5e2764677770fd7a085"
+"@tensorflow/tfjs-core@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-1.3.2.tgz#7dcf66510e404a6564f7f47cd854eff936b58c5a"
+  integrity sha512-42WlbkbD10F11qN7k+GMjdPB62DGGnz7czkvk+lT501qWUrQI8swTjZfgMijcTWyQSeJuLa97EOL9n/Gn3Yfpw==
   dependencies:
+    "@types/offscreencanvas" "~2019.3.0"
     "@types/seedrandom" "2.4.27"
     "@types/webgl-ext" "0.0.30"
     "@types/webgl2" "0.0.4"
+    node-fetch "~2.1.2"
     seedrandom "2.4.3"
 
-"@tensorflow/tfjs-data@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-1.0.3.tgz#f614bef1dde1030673e691f1725cd30719c6b31c"
+"@tensorflow/tfjs-data@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-1.3.2.tgz#311c510213b1ba26ebc1d989e21ae0af3feac8be"
+  integrity sha512-1Ed6rb1OAcQc70jQqAN6UYch56p7FHafQ4cDzEDoS1tgfn0Of6Gb3KETa0RJMIpWvlrr/Oa5qwqDk8Tlusn7+Q==
   dependencies:
     "@types/node-fetch" "^2.1.2"
     node-fetch "~2.1.2"
-    seedrandom "~2.4.3"
 
-"@tensorflow/tfjs-layers@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-1.0.3.tgz#dfb4c6924b528cf992f222b12d70bb320a48207f"
+"@tensorflow/tfjs-layers@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-1.3.2.tgz#1691513bce5d49f95c0aad9ee3a22eda5742828e"
+  integrity sha512-Y+zsoXlXWYopv+u3woMgE18TsEtzcRUVdgMQxuQm1FGRFAltyKxHzVO44b/nVdC59kRHIv0wrLU4G2hSQlprqA==
 
-"@tensorflow/tfjs-node-gpu@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node-gpu/-/tfjs-node-gpu-1.0.2.tgz#8f05828f3d31ca4c9625c77d7a4817455a4021f4"
+"@tensorflow/tfjs-node-gpu@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node-gpu/-/tfjs-node-gpu-1.3.2.tgz#38453adb5eb677f7316c00546ba4d1c9d8c69c5b"
+  integrity sha512-1xhwxzLo3Ae7FtWlt4l1Stb+oVWp6Jm0dISbz7vd0ZKnahOxm0oGW88ZQ9UG42jlwDB4qPlklsQMOR/+oDwH4w==
   dependencies:
-    "@tensorflow/tfjs" "~1.0.2"
+    "@tensorflow/tfjs" "1.3.2"
     adm-zip "^0.4.11"
-    bindings "~1.3.0"
+    google-protobuf "^3.9.2"
     https-proxy-agent "^2.2.1"
-    node-fetch "^2.3.0"
+    node-pre-gyp "0.13.0"
     progress "^2.0.0"
     rimraf "^2.6.2"
     tar "^4.4.6"
 
-"@tensorflow/tfjs-node@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node/-/tfjs-node-1.0.2.tgz#ae3f00c4de89db5795ad22a368c21d0d1a2661a3"
+"@tensorflow/tfjs-node@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node/-/tfjs-node-1.3.2.tgz#98e71faeefac1284610e8d3bcd4c1ef36ea28255"
+  integrity sha512-inWEd+WmVUU/UdLjYSNugTAa2MBuKUd6QtcGDk8u1+yV54/ulxYQlsITB4g/6KPnABlnpM49J342pt+/j2Z8uA==
   dependencies:
-    "@tensorflow/tfjs" "~1.0.2"
+    "@tensorflow/tfjs" "1.3.2"
     adm-zip "^0.4.11"
-    bindings "~1.3.0"
+    google-protobuf "^3.9.2"
     https-proxy-agent "^2.2.1"
-    node-fetch "^2.3.0"
+    node-pre-gyp "0.13.0"
     progress "^2.0.0"
     rimraf "^2.6.2"
     tar "^4.4.6"
@@ -1009,14 +1016,15 @@
     preact "^8.2.9"
     vega-embed "3.30.0"
 
-"@tensorflow/tfjs@^1.0.2", "@tensorflow/tfjs@~1.0.2":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-1.0.3.tgz#e1d0a76ed9ab1700550287ab4eaf012ad2d27210"
+"@tensorflow/tfjs@1.3.2", "@tensorflow/tfjs@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-1.3.2.tgz#1a7868a68a52a335e84adea9d544cc150bf86116"
+  integrity sha512-2QrKHtM6DraAgWL9DJwluz+/CJ5EbPN9tdNAFGq83fSUm3cNEK37UPsWdQ1QXXBqMczg1uyLEmPgFq6Lsy2/Vg==
   dependencies:
-    "@tensorflow/tfjs-converter" "1.0.3"
-    "@tensorflow/tfjs-core" "1.0.3"
-    "@tensorflow/tfjs-data" "1.0.3"
-    "@tensorflow/tfjs-layers" "1.0.3"
+    "@tensorflow/tfjs-converter" "1.3.2"
+    "@tensorflow/tfjs-core" "1.3.2"
+    "@tensorflow/tfjs-data" "1.3.2"
+    "@tensorflow/tfjs-layers" "1.3.2"
 
 "@types/clone@^0.1.30":
   version "0.1.30"
@@ -1031,6 +1039,11 @@
 "@types/node@*":
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.12.0.tgz#ec5594728811dc2797e42396cfcdf786f2052c12"
+
+"@types/offscreencanvas@~2019.3.0":
+  version "2019.3.0"
+  resolved "https://registry.yarnpkg.com/@types/offscreencanvas/-/offscreencanvas-2019.3.0.tgz#3336428ec7e9180cf4566dfea5da04eb586a6553"
+  integrity sha512-esIJx9bQg+QYF0ra8GnvfianIY8qWB0GBx54PK5Eps6m+xTj86KLavHv6qDhzKcu5UUOgNfJ2pWaIIV7TRUd9Q==
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -1701,10 +1714,6 @@ binary-extensions@^1.0.0:
 bindings@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
-
-bindings@~1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.3.1.tgz#21fc7c6d67c18516ec5aaa2815b145ff77b26ea5"
 
 bmp-js@0.0.3:
   version "0.0.3"
@@ -3205,6 +3214,11 @@ globby@^5.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+google-protobuf@^3.9.2:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.10.0.tgz#f36171128090615049f9b0e42252b1a10a4bc534"
+  integrity sha512-d0cMO8TJ6xtB/WrVHCv5U81L2ulX+aCD58IljyAN6mHwdHHJ2jbcauX5glvivi3s3hx7EYEo7eUA9WftzamMnw==
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
@@ -4014,9 +4028,10 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.4:
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
+  integrity sha512-vm3/XWXfWtRua0FkUyEHBZy8kCPjErNBT9fJx8Zvs+U6zjqPbTUOpkaoum3O5uiA8sm+yNMHXfYkTUHFoMxFNA==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -4289,6 +4304,22 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "0.0.4"
 
+node-pre-gyp@0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.13.0.tgz#df9ab7b68dd6498137717838e4f92a33fc9daa42"
+  integrity sha512-Md1D3xnEne8b/HGVQkZZwV27WUi1ZRuZBij24TNaZwUPU3ZAFtvT6xxJGaUVillfmMKnn5oD1HoGsp2Ftik7SQ==
+  dependencies:
+    detect-libc "^1.0.2"
+    mkdirp "^0.5.1"
+    needle "^2.2.1"
+    nopt "^4.0.1"
+    npm-packlist "^1.1.6"
+    npmlog "^4.0.2"
+    rc "^1.2.7"
+    rimraf "^2.6.1"
+    semver "^5.3.0"
+    tar "^4"
+
 node-pre-gyp@^0.10.0:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.10.3.tgz#3070040716afdc778747b61b6887bf78880b80fc"
@@ -4480,6 +4511,7 @@ opener@~1.4.0:
 opn@^5.1.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"
+  integrity sha512-PqHpggC9bLV0VeWcdKhkpxY+3JTzetLSqTCWL/z/tFIbI6G8JCjondXklT1JinczLz2Xib62sSp0T/gKT4KksA==
   dependencies:
     is-wsl "^1.1.0"
 
@@ -5574,10 +5606,6 @@ saxes@^3.1.5:
 seedrandom@2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-2.4.3.tgz#2438504dad33917314bff18ac4d794f16d6aaecc"
-
-seedrandom@~2.4.3:
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/seedrandom/-/seedrandom-2.4.4.tgz#b25ea98632c73e45f58b77cfaa931678df01f9ba"
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.0"
